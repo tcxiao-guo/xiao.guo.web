@@ -105,7 +105,7 @@
         "session_timeout": 0,
         //string value of SameSite attribute of the Set-Cookie HTTP respone header
         //valid value is either 'Null' (default), 'Lax', 'Strict' or 'None'
-        "session_same_site" : "Null",
+        "session_same_site": "Null",
         //session_cookie_key: The cookie key of the session, "JSESSIONID" by default
         "session_cookie_key": "JSESSIONID",
         //session_max_age: The max age of the session cookie, -1 by default
@@ -327,16 +327,16 @@
             "name": "drogon::plugin::AccessLogger",
             "dependencies": [],
             "config": {
-                    "use_spdlog": false,
-                    "log_path": "",
-                    "log_format": "",
-                    "log_file": "access.log",
-                    "log_size_limit": 0,
-                    "use_local_time": true,
-                    "log_index": 0,
-                    // "show_microseconds": true,
-                    // "custom_time_format": "",
-                    // "use_real_ip": false
+                "use_spdlog": false,
+                "log_path": "",
+                "log_format": "",
+                "log_file": "access.log",
+                "log_size_limit": 0,
+                "use_local_time": true,
+                "log_index": 0,
+                // "show_microseconds": true,
+                // "custom_time_format": "",
+                // "use_real_ip": false
             }
         }
     ],
